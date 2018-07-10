@@ -25,7 +25,7 @@ class ShowCircles extends React.Component {
       //将得到的圆组件放到集合 key 多个组件唯一标识
       circleCompts.push (<Circle key={i + colors[ran]} bgColor={colors[ran]}/>);
     }
-    console.info(circleCompts)
+    console.info(circleCompts);
     return (circleCompts)
   }
 
